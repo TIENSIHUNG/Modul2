@@ -4,23 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e55e7b5e-caa9-4996-9873-79a1bab3bb92" name="Changes" comment="" />
+    <list default="true" id="6756ec86-9696-4280-9a78-5e51d71182ba" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectId" id="2ShPfLC9ERrorc6DO0L3cK5B8D0" />
+  <component name="ProjectId" id="2ShRw0p17WuDYIdnkoEBJtDSyAB" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "node.js.detected.package.eslint": "true",
@@ -31,8 +39,8 @@
   }
 }]]></component>
   <component name="RunManager">
-    <configuration name="doi_tien" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="doi_tien" />
+    <configuration name="doi_so" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="doi_so" />
       <module name="doi_so" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -40,19 +48,19 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.doi_tien" />
+        <item itemvalue="Application.doi_so" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e55e7b5e-caa9-4996-9873-79a1bab3bb92" name="Changes" comment="" />
-      <created>1689595943883</created>
+      <changelist id="6756ec86-9696-4280-9a78-5e51d71182ba" name="Changes" comment="" />
+      <created>1689597062226</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1689595943883</updated>
-      <workItem from="1689595944888" duration="794000" />
+      <updated>1689597062226</updated>
+      <workItem from="1689597063250" duration="803000" />
     </task>
     <servers />
   </component>
