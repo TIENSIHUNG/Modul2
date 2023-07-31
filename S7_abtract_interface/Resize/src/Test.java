@@ -11,8 +11,8 @@ public class Test {
         resizeables[1] = new Square(3);
         resizeables[2] = new Rectangle(3,2);
         System.out.println(Arrays.toString(resizeables));
-        for (int i = 0; i < resizeables.length; i++) {
-            System.out.println(resizeables[i].resize(Math.random()));;
+        for (Resizeable resizeable : resizeables) {
+            System.out.println(resizeable.resize(Math.random()));
         }
 
 
