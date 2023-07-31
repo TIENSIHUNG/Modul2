@@ -24,8 +24,14 @@ public class Circle implements Resizeable {
 
     @Override
     public String resize(double x) {
-        return getArea()*x/100+"va"+getPe()*x/100 ;
+        setR(this.r*x);
+        return "S="+ getArea()+"va C="+getPe() ;
     }
 
-
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "r=" + r +
+                '}';
+    }
 }

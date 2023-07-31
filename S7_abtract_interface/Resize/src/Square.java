@@ -25,6 +25,14 @@ public class Square implements Resizeable {
 
     @Override
     public String resize(double x) {
-        return getArea()*x/100+" va "+getPe()*x/100;
+        setX(this.x*x);
+        return "S="+ getArea()+"va C="+getPe() ;
+    }
+
+    @Override
+    public String toString() {
+        return "Square{" +
+                "x=" + x +
+                '}';
     }
 }

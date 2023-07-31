@@ -5,6 +5,11 @@ public class Rectangle implements Resizeable {
     public Rectangle() {
     }
 
+    public Rectangle(double wid, double hei) {
+        this.wid = wid;
+        this.hei = hei;
+    }
+
     public double getWid() {
         return wid;
     }
@@ -29,6 +34,15 @@ public class Rectangle implements Resizeable {
     }
     @Override
     public String resize(double x) {
-        return getArea()*x/100+" va " +getPe()*x/100;
+        setWid(this.wid*x);setHei(this.hei*x);
+        return "S="+ getArea()+"va C="+getPe() ;
+    }
+
+    @Override
+    public String toString() {
+        return "Rectangle{" +
+                "wid=" + wid +
+                ", hei=" + hei +
+                '}';
     }
 }
