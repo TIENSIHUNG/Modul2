@@ -39,15 +39,15 @@ public class ProductManager {
         }
     }
 
-    public boolean delete(int id){
+    public void delete(int id){
         for (Product product: arr) {
+            int index;
             if(product.getId() == id){
-                arr.remove(product);
-                return  true;
+                index = arr.indexOf(product);
+                arr.remove(index);
+                break;
             }
-
         }
-        return false;
     }
 
     public void sortUp(){
@@ -79,7 +79,7 @@ public class ProductManager {
 
     public void searchByName(String name){
         for (Product product: arr
-             ) { if (product.getName()==name){
+             ) { if (product.getName() == name){
             System.out.println(" san pham co id = " +product.getId());
             return;
         }else {
