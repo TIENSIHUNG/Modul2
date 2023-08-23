@@ -14,8 +14,8 @@ public class Binary {
         if (value == arr[mid]) {
             return mid; // Tìm thấy
         }
-        else if (value < arr[mid]) {
             // Gọi lại hàm đệ quy với nửa bên trái
+        else if (value < arr[mid]) {
             return binarySearch(arr, value, start, mid - 1);
         }
         else {
