@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/S17_IOStream.iml" filepath="$PROJECT_DIR$/.idea/S17_IOStream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/copyFile/copyFile.iml" filepath="$PROJECT_DIR$/copyFile/copyFile.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sumNumInF/sumNumInF.iml" filepath="$PROJECT_DIR$/sumNumInF/sumNumInF.iml" />
+      <module fileurl="file://$PROJECT_DIR$/writeMaxtoF/writeMaxtoF.iml" filepath="$PROJECT_DIR$/writeMaxtoF/writeMaxtoF.iml" />
+    </modules>
+  </component>
+</project>
